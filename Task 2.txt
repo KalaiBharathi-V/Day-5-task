@@ -1,0 +1,45 @@
+var data = {
+  "name": "Kalai Bharathi",
+  "contact": {
+    "email": "vkalaibharathi@gmail.com",
+    "phone": "+91 9445843681",
+    "address": "12 Gangai Street, Bharathi Nagar,Taramani, Chennai",
+    "summary": "Fresher in software engineer with a strong background in web development and a passion for creating efficient and scalable solutions. Proficient in multiple programming languages and technologies, with a proven track record of delivering high-quality software.",
+ "education": {
+      "degree": "Bachelor of Science in Computer Science",
+      "school": "Thirukoilur college of arts and science",
+      "graduation_date": "May 2023",
+      "location": "Thirukoilur, Kallakurichi"
+    }
+  }
+};
+
+var Qualification = {
+    "Qualification":{
+      "title": "Software Engineer",
+      "company": "Code Wizards LLC",
+      "location": "Chennai",
+      "responsibilities": [
+        "Developed and maintained front-end web applications using HTML, CSS, and JavaScript.",
+        "Participated in code reviews to ensure code quality and adherence to best practices.",
+        "Worked closely with the QA team to identify and resolve software defects."
+      ]
+    }
+    };
+    
+var Skills = {
+      "skills": [
+    "JavaScript",
+    "Python",
+    "Node.js",
+    "React",
+    "SQL",
+    "Git",
+    "Problem Solving",
+    "Team Leadership"
+  ],
+  "languages": ["Tamil (Fluent)", "English (Basic)"]
+}
+  console.log(data);
+  console.log(Qualification);
+  console.log(Skills);

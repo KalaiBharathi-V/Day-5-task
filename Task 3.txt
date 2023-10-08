@@ -1,0 +1,37 @@
+Read about the  difference between window, screen and document in JavaScript
+
+In JavaScript, the terms "window," "screen," and "document" are used to refer to different objects and concepts related to web development. Each of these objects has distinct properties and purposes:
+
+Window:
+
+The window object represents the browser window or tab that contains the web page.
+It is the top-level object in the browser's object model and serves as the global object in the browser's JavaScript environment.
+You can access the window object globally in your JavaScript code without explicitly referencing it.
+For example, you can use alert('Hello, World!') without specifying window.alert('Hello, World!').
+The window object provides access to various properties and methods related to the browser window,
+such as window.innerWidth to get the viewport width, window.location to interact with the current URL,
+and window.open() to open new browser windows or tabs.
+
+Screen:
+
+The screen object represents the user's screen or monitor.
+It provides information about the screen's dimensions and properties.
+You can access properties like screen.width and screen.height to get the screen's resolution in pixels, 
+screen.availWidth and screen.availHeight to get the available screen space (excluding the taskbar or other system elements), 
+and screen.colorDepth to get the color depth of the screen.
+The screen object is useful when you want to design web pages or applications that adapt to different screen sizes and resolutions.
+
+Document:
+
+The document object represents the HTML document currently loaded in the browser window.
+It provides access to the structure and content of the web page.
+You can use the document object to manipulate and interact with the DOM (Document Object Model),
+which represents the hierarchy of HTML elements on the page.
+For example, you can access elements using document.getElementById('elementId'), modify their content with element.innerHTML, 
+or add event listeners to handle user interactions.
+The document object also provides access to various properties and methods for managing the web page, 
+such as document.title to set or retrieve the page title, document.
+URL to get the current URL, and document.cookie to work with cookies.
+In summary, "window" represents the browser window or tab, "screen" represents the user's screen properties, and "document" 
+represents the currently loaded HTML document.
+These objects are crucial for building interactive web applications and provide various methods and properties to interact with and manipulate web content.

@@ -1,0 +1,43 @@
+For given the JSON iterate over all for loops(for, for in, for of, forEach)
+
+var data = {
+  name: 'Kalai Bharathi',
+  age: 22,
+  city: 'Chennai'
+};
+
+
+// Using for
+
+var keys = Object.keys(data);
+for (let i = 0; i < keys.length; i++) {
+  var key = keys[i];
+  var value = data[key];
+  console.log(`${key}: ${value}`);
+}
+
+
+//Using for in
+
+
+for (var key in data) {
+  if (data.hasOwnProperty(key)) {
+    var value = data[key];
+    console.log(`${key}: ${value}`);
+  }
+}
+
+
+//Using for of
+
+
+for (var [key, value] of Object.entries(data)) {
+  console.log(`${key}: ${value}`);
+}
+
+//Using forEach
+
+var values = Object.values(data);
+values.forEach((value, index) => {
+  console.log(`Index of ${index}: ${value}`);
+});
